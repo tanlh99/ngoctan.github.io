@@ -1,0 +1,75 @@
+/*style sheet created by: Ngoc Tan, 18/1/2019*/
+
+/* Style sheet created by: Student’s First Name Student’s Last Name, Today’s Date */
+body {
+      background-color  : #FFFF99;
+}
+
+/* Style for container centers the page and sets the element width */
+#container {
+      width             : 80%;
+      margin-left       : auto;
+      margin-right      : auto;
+}
+
+/* Style for header specifies top and bottom margins, background color, rounded border, shadow, and alignment */
+header {
+  margin-top            : 5px;
+  margin-bottom         : 20px;
+  background-color      : #FFFFFF;
+  border-radius         : 50px;
+  box-shadow            : 12px 12px 12px  #404040;
+  text-align            : center;
+}
+
+/* Style for nav specifies text properties, padding, margins, and borders */
+nav {
+  font-family           :Georgia, "Time new Roman" serif;
+  font-size             : 1.25em;
+  text-align            : center;
+  padding               : 50px;
+  margin                : 18px;
+  margin-top            : 18px;
+  margin-bottom         : 18px;
+  border-radius         : 20px;
+  border-top            : 5px solid #FFFFFF;
+  border-bottom         : 5px solid #FFFFFF;
+}
+
+/* Style for main specifies a block display, text properties, margins, padding, rounded border, and shadow */
+main{
+  display               : block;
+  font-family           : verdana, arial, sans-serif;
+  font-size             : 1em;
+  margin-top            : 20px;
+  margin-bottom         : 10px;
+  padding               : 20px;
+  border-radius         : 10px;
+  background-color      : #FFFFFF;
+  box-shadow            : 12px 12px 12px #404040;
+}
+
+	/* Style for footer specifies font size, text alignment, and top margin */
+footer{
+  font-size             : .90em;
+  text-align            : center;
+  margin-top            : 20px;
+}
+
+.equip{
+    float               : left;
+    padding-right       : 40px
+}
+
+ul{
+      margin-bottom     : 70px;
+      list-style-position: inside;
+}
+
+dt{
+  font-weight           : bold;
+}
+
+dt{
+  padding-bottom        : 20px;
+}
