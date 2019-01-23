@@ -5,20 +5,25 @@ body {
       background-color  : #FFFF99;
 }
 
+/*Style to create a fluid image  */
+img{
+  max-width: 100%;
+}
+
+/* Style for mobie layout*/
+
 /* Style for container centers the page and sets the element width */
 #container {
-      width             : 80%;
+      width             : 100%;
       margin-left       : auto;
       margin-right      : auto;
 }
 
 /* Style for header specifies top and bottom margins, background color, rounded border, shadow, and alignment */
 header {
-  margin-top            : 5px;
-  margin-bottom         : 20px;
+  margin-top            : 0.2em;
   background-color      : #FFFFFF;
-  border-radius         : 50px;
-  box-shadow            : 12px 12px 12px  #404040;
+  border-radius         : 0.5em;
   text-align            : center;
 }
 
@@ -26,36 +31,71 @@ header {
 nav {
   font-family           :Georgia, "Time new Roman" serif;
   font-size             : 1.25em;
+  font-weight           : bold;
   text-align            : center;
-  padding               : 50px;
-  margin                : 18px;
-  margin-top            : 18px;
-  margin-bottom         : 18px;
-  border-radius         : 20px;
-  border-top            : 5px solid #FFFFFF;
-  border-bottom         : 5px solid #FFFFFF;
 }
 
+/*Style spectfile padding and margin for unorderlist */
+nav ul{
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+  background-color      : #009933;
+  border-radius         : 2em;
+  list-style-type       : none;
+  margin                : 0.3em;
+  padding               : 0.4em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+	nav li a {
+    color               : #FFFFFF;
+    text-decoration     : none;
+  }
+
+/* Style display the mobile class*/
+.mobile{
+  display               : inline;
+}
+
+/* Style hides the desktop class*/
+.desktop{
+  display               : none;
+}
 /* Style for main specifies a block display, text properties, margins, padding, rounded border, and shadow */
-main{
+main ul{
   display               : block;
-  font-family           : verdana, arial, sans-serif;
-  font-size             : 1em;
-  margin-top            : 20px;
-  margin-bottom         : 10px;
-  padding               : 20px;
-  border-radius         : 10px;
-  background-color      : #FFFFFF;
-  box-shadow            : 12px 12px 12px #404040;
+  font-family           : arial, sans-serif;
+  font-size             :
+  margin-top            : 0.5em;
+  margin-bottom         : 0.5em;
+  padding               : 1em;
+  border-radius         : 1em;
+  background-color      : #FFFFFF
+  border-top            : solid 0.2em #009933
+  border-bottom         : solid 0.2em #009933
 }
 
 	/* Style for footer specifies font size, text alignment, and top margin */
 footer{
   font-size             : .90em;
   text-align            : center;
-  margin-top            : 20px;
+  margin-top            : .20px;
 }
 
+/*Style hides tablet*/
+table{
+  display               : none;
+}
+
+/*Style rule spectfile to not display the equip class*/
+.equip{
+  display               : none;
+}
 .equip{
     float               : left;
     padding-right       : 40px
